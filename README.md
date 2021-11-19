@@ -1,3 +1,11 @@
+https://www.gatsbyjs.com/docs/how-to/images-and-media/static-folder/
+
+http://localhost:8000/___graphql?query=query%20AssetsPhotos%20%7B%0A%20%20allImageSharp%0A%20%20file(childImageSharp%3A%20%7Bfixed%3A%20%7B%7D%7D)%0A%7D%0A
+
+https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-plugin-image/
+
+https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-plugin-image/#gatsbyimage
+
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
