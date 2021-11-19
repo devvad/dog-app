@@ -1,5 +1,6 @@
 import * as React from "react"
 import { StaticQuery, graphql } from "gatsby"
+import * as pageStyles from "./page.module.css"
 
 const IndexPage = () => {
   return (
@@ -19,8 +20,9 @@ const IndexPage = () => {
         }
       `}
       render={data => {
+        <h1>Влад, теперь я официально твой коллега?</h1>
         return data.allFile.edges.map((item) => {
-          return <img src={item.node.publicURL} width="400px" key={item.node.id}/>
+          return <img className={pageStyles.page} src={item.node.publicURL} alt="Dogs" width="430px" key={item.node.id}/>
         })
       }}
     />
