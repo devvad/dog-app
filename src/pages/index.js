@@ -20,7 +20,6 @@ const IndexPage = () => {
         }
       `}
       render={data => {
-        <h1>Влад, теперь я официально твой коллега?</h1>
         return data.allFile.edges.map((item) => {
           return <img className={pageStyles.page} src={item.node.publicURL} alt="Dogs" width="430px" key={item.node.id}/>
         })
