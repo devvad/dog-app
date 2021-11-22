@@ -12,25 +12,9 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: "./src/images/",
+        path: "./static/images",
       },
       __key: "images",
-    },
-		{
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "static",
-        path: "./public/static",
-      },
-      __key: "static",
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "pages",
-        path: "./src/pages/",
-      },
-      __key: "pages",
     },
   ],
 };
